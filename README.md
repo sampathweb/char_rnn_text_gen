@@ -13,5 +13,5 @@ pip install -r requirements.txt
 gunicorn -w 2 -k uvicorn.workers.UvicornWorker main:app
 
 # Deploy to Google Cloud
-gcloud deploy
+gcloud app deploy
 ```
